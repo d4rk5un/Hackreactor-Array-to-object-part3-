@@ -14,7 +14,7 @@ var array = [
 ]
 */
 
-var obj = obj = array[0];;
+var obj = obj = array[0];
 var obj2 = obj2 = array[1];
 var arr = [];
 
@@ -29,4 +29,3 @@ var y = obj2.reduce(function(acc, cur) {
 }, {});
 
 arr.push(x, y);
-console.log(arr);
